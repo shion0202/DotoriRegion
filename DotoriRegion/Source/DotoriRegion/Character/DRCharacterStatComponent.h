@@ -42,23 +42,23 @@ protected:
 
 protected:
 	// Additional time limit for fishing parts.
-	UPROPERTY(VisibleAnywhere, Category = "Stat")
+	UPROPERTY(VisibleAnywhere, Category = Stat)
 	int32 AdditionalTimeLimit;
 
 	// The size of capture bar.
-	UPROPERTY(VisibleAnywhere, Category = "Stat")
+	UPROPERTY(VisibleAnywhere, Category = Stat)
 	float CaptureBarSize;
 
 	// Rise of gauge when the capture bar comes into contact with a target.
-	UPROPERTY(VisibleAnywhere, Category = "Stat")
+	UPROPERTY(VisibleAnywhere, Category = Stat)
 	float ProgressGaugeIncreaseAmount;
 
 	// A reduction in target's speed.
-	UPROPERTY(VisibleAnywhere, Category = "Stat")
+	UPROPERTY(VisibleAnywhere, Category = Stat)
 	float TargetSpeedDecreaseAmount;
 
 	// Speed when the character moves.
-	UPROPERTY(VisibleAnywhere, Category = "Stat")
+	UPROPERTY(VisibleAnywhere, Category = Stat)
 	float MoveSpeed;
 	
 	float DefaultMoveSpeed = 500.f;
